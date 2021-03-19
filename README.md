@@ -18,3 +18,5 @@ It uses the SSD1306Wire library and any display compatible with that can probabl
 <img src="https://github.com/bdring/Basic_OLED_CNC_IO_MODULE/blob/main/images/OLED_Module_2.jpg" width="400">
 <img src="https://github.com/bdring/Basic_OLED_CNC_IO_MODULE/blob/main/images/OLED_Module_3.jpg" width="400">
 <img src="https://github.com/bdring/Basic_OLED_CNC_IO_MODULE/blob/main/images/OLED_Module_4.jpg" width="400">
+
+[<img src="https://github.com/bdring/TMC2209_4x_DK/blob/main/images/tindie-logo.png" width="160">](https://www.tindie.com/products/33366583/oled-display-cnc-io-module/)
