@@ -15,6 +15,17 @@ With the basic firmware, the screen displays 4 different screens depending on th
 
 It uses the SSD1306Wire library and any display compatible with that can probably be used.  The display is widely available (Amazon, eBay, AliExpress) and available in a few colors.
 
+The module uses the 5th and 6th I/O pins of the socket. These are gpio.14 and gpio.13 regardless of what socket is used. Socket 4 on the 6 Pack and socket 3 of the 6 Pack external driver version repeats these pins in 1st and 2nd position. You cannot use this module in another socket if you have a module in one of those sockets. Basically it is best to use the OLED in socket 4 of the 6 Pack or socket 3 of the external version. 
+
+```yaml
+i2c_oled:
+  sda_pin: gpio.14
+  scl_pin: gpio.13
+  i2c_address: 60
+  width: 128
+  height: 64
+```
+
 <img src="https://github.com/bdring/Basic_OLED_CNC_IO_MODULE/blob/main/images/OLED_Module_2.jpg" width="400">
 <img src="https://github.com/bdring/Basic_OLED_CNC_IO_MODULE/blob/main/images/OLED_Module_3.jpg" width="400">
 <img src="https://github.com/bdring/Basic_OLED_CNC_IO_MODULE/blob/main/images/OLED_Module_4.jpg" width="400">
